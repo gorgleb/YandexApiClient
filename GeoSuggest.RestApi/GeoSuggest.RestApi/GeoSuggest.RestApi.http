@@ -1,0 +1,6 @@
+@GeoSuggest.RestApi_HostAddress = http://localhost:5044
+
+GET {{GeoSuggest.RestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

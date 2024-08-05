@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ExternalClients\GeoSuggest.GeoSuggestClient\GeoSuggest.GeoSuggestClient.csproj" />
+    <ProjectReference Include="..\..\GeoSuggest.Core\GeoSuggest.Core.csproj" />
+    <ProjectReference Include="..\..\GeoSuggest.SharedInfrastructure\GeoSuggest.SharedInfrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
